@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: whitesmoke;
+}
+
+div.container h1.prohead{}
+
+div.container{
+    text-align: center;
+    width: 100vw;
+    height: 35vh;
+    padding-top: 15vh;
+    background:linear-gradient(#be6565,#ffffff);
+    color: #05445E;
+}
+
+div.container a.home{
+    text-decoration: none;
+    color: #00778f;
+}
+
+div.container a.home:hover{
+    color: darkslategray;
+}
+
+div.imgandmatter1 {opacity: 0.95}
+div.imgandmatter1{
+    
+    padding-top: 5vh;
+    padding-right: 0;
+    width: 40vw;
+    
+
+}
+
+div.imgandmatter1 div.img img.p1{
+    /* display: inline-block; */
+    
+    width: 20vw;
+    height: 30vh;
+}
+
+div.imgandmatter1 div.matter{
+    text-align: center;
+    width: 70vw;
+    height:30vh;
+    background: linear-gradient(to bottom right, #040b2b,#4169b3);
+    color:rgba(255, 145, 0, 0.658);
+    padding-top: 3vh;
+    font-size: 14px;
+}
+
+div.imgandmatter1{
+    display: flex;
+}
+
+
+div.imgandmatter2{opacity: 0.8;}
+div.imgandmatter2{
+
+    padding-top: 5vh;
+    padding-right: 0;
+    width: 40vw;
+
+}
+
+div.imgandmatter2 div.img img.p2{
+    width: 20vw;
+    height: 30vh;
+    background-color: aqua;
+}
+
+div.imgandmatter2 div.matter{
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100vw;
+    height:30vh;
+    background:linear-gradient(to bottom right, #f7d493,#fad014);
+    color: brown;
+    font-size: 14px;
+}
+
+div.imgandmatter2{
+    display: flex;
+    margin-top: 0;
+}
+
+div.row1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+div.imgandmatter5 {opacity: 0.8;}
+div.imgandmatter5{
+    
+    padding-top: 5vh;
+    padding-right: 0;
+    width: 40vw;
+    
+
+}
+
+div.imgandmatter5 div.img img.p5{
+    
+    width: 20vw;
+    height: 30vh;
+}
+
+div.imgandmatter5 div.matter{
+    text-align: center;
+    width: 70vw;
+    height:30vh;
+    background:linear-gradient(to bottom right,#a3dd1b,#555555);
+    color: rgb(6, 4, 37);
+    padding-top: 3vh;
+    font-size: 14px;
+}
+
+div.imgandmatter5{
+    display: flex;
+}
+
+div.onlyrow{
+    display: flex;
+    justify-content: center;
+}
+
+
+div.imgandmatter3 {opacity: 0.8;}
+div.imgandmatter3{
+    
+    padding-top: 5vh;
+    padding-right: 0;
+    width: 40vw;
+    
+
+}
+
+div.imgandmatter3 div.img img.p3{
+    
+    width: 20vw;
+    height: 30vh;
+}
+
+div.imgandmatter3 div.matter{
+    text-align: center;
+    width: 70vw;
+    height:30vh;
+    background:linear-gradient(to top left ,silver,white);
+    color: rgb(6, 5, 75);
+    padding-top: 3vh;
+    font-size: 14px;
+}
+
+div.imgandmatter3{
+    display: flex;
+}
+
+
+div.imgandmatter4{opacity: 0.8;}
+div.imgandmatter4{
+
+    padding-top: 5vh;
+    padding-right: 0;
+    width: 40vw;
+
+}
+
+div.imgandmatter4 div.img img.p4{
+    width: 20vw;
+    height: 30vh;
+    background-color: aqua;
+}
+
+div.imgandmatter4 div.matter{
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100vw;
+    height:30vh;
+    background:linear-gradient(to bottom right ,rgb(125, 222, 247),rgb(180, 233, 211));
+    color: darkslategrey;
+    font-size: 14px;
+}
+
+div.imgandmatter4{
+    display: flex;
+    margin-top: 0;
+}
+
+div.row2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media (max-width: 800px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}
+
+
+
+
+
+

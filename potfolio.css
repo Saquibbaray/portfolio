@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header.mainheader {
+  background-image: linear-gradient(to top left,rgba(12, 12, 12, 0.459),rgba(77, 79, 83, 0.596)),url(../Images/finalheaderwallpaper.jpg);
+  background-size: cover;
+  height: 750px;
+  width: 100vw;
+}
+/* #AC8181,#CFCECA,#F8F8FF,#C9A959,#253D5B */
+
+header.mainheader nav ul li {
+  float: left;
+  list-style: none;
+  font-size: 20px;
+  padding: 20px;
+  margin: 5px;
+}
+
+header.mainheader nav ul li a {
+  text-decoration: none;
+  color: gold;
+}
+
+header.mainheader nav ul li.right {
+  float: right;
+}
+
+header.mainheader nav ul li a.button {
+  background: linear-gradient(#cfceca, #253d5b);
+  padding: 5px;
+  border-radius: 25px;
+}
+
+header.mainheader nav ul li a:hover {
+  color: #cfceca;
+}
+
+header.mainheader nav ul li a.button:hover {
+  background-color: #253d5b;
+  color: papayawhip;
+}
+
+nav::after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+a.parabutton {
+  display: inline-block;
+  background: linear-gradient(#cfceca, #253d5b);
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #e6ae15;
+  font-size: 16px;
+}
+
+a.parabutton:hover {
+  background-color: #253d5b;
+  color: papayawhip;
+}
+
+div.container {
+  color: #cfceca;
+  text-align: center;
+  margin-top: 250px;
+  justify-content: space-around;
+}
+
+div.container p.paracontent {
+  color: #cfceca;
+}
+
+div.container a.button:hover {
+  color: papayawhip;
+  background-color: #253d5b;
+}
+
+section.aboutcontainer div.paraandimg div.aboutpara a.parabutton {
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px;
+  border-radius: 25px;
+  color: #253d5b;
+  background-color: #cfceca;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section.aboutcontainer div.paraandimg div.aboutpara a.parabutton:hover {
+  color: #ffefd5;
+  background-color: #253d5b;
+}
+
+section.aboutcontainer div.paraandimg div.aboutpara, section.aboutcontainer div.paraandimg img.aboutimg {
+  float: left;
+  width: 48vw;
+  
+}
+
+div.paraandimg::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+
+section.aboutcontainer div.paraandimg div.aboutpara {
+  
+  /* padding: 50px 195px 50px 50px; */
+  height: 70vh;
+  font-size: 20px;
+  background: linear-gradient(#43648b, #ffefd5);
+  color: #253d5b;
+  margin-top: 30px;
+  padding-top: 5rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+section.aboutcontainer div.paraandimg img.aboutimg {
+  box-sizing: border-box;
+  margin: 0;
+  padding-bottom: 1em;
+  background: linear-gradient(#43648b, #ffefd5);
+  margin-top: 30px;
+  height: 70vh;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+
+div.aboutfooter div.Academics {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div.aboutfooter div.Certifications {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div.aboutfooter div.Organizations {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div.aboutfooter div.Projects {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+section.aboutcontainer h2 {
+  margin-top: 20px;
+  color: #bd932b;
+  text-align: center;
+}
+
+div.aboutfooter {
+  text-align: center;
+}
+
+div.aboutfooter .img1 {
+  width: 80px;
+}
+
+div.aboutfooter .img2 {
+  width: 115px;
+}
+
+div.aboutfooter .img3 {
+  width: 120px;
+}
+
+div.aboutfooter .img4 {
+  width: 160px;
+}
+
+div.aboutfooter p.sub-heading {
+  color: #bd932b;
+  font-size: 25px;
+}
+
+div.aboutfooter a.button {
+  display: inline-block;
+  box-sizing: border-box;
+  background: linear-gradient(#cfceca, #5c7ea8);
+  padding: 2px;
+  margin: 2px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+div.aboutfooter a.button:hover {
+  background-color: #253d5b;
+  color: papayawhip;
+}
+
+div.aboutfooter::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+section.whyme h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  color: #bd932b;
+}
+
+section.whyme div.para2andimg2 div.whypara a.whymebuttons {
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px;
+  border-radius: 25px;
+  color: #253d5b;
+  background-color: #cfceca;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section.whyme div.para2andimg2 div.whypara a.whymebuttons:hover {
+  color: #ffefd5;
+  background-color: #253d5b;
+}
+
+section.whyme div.para2andimg2 div.whypara, section.whyme div.para2andimg2 div.whyimg {
+
+  float: right;
+}
+
+div.para2andimg2{
+  background: linear-gradient(#43648b, #ffefd5);
+  padding-top: 5vh;
+}
+
+section.whyme div.para2andimg2 div.whypara {
+  width: 60vw;
+  height: 60vh;
+  font-size: medium;
+  color: #253d5b;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+img.whymeimg{
+  width: 38vw;
+  margin: 0;
+  background: linear-gradient(#43648b, #ffefd5);
+  height: 60vh;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+div.para2andimg2::after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+div.contactheader {
+  text-align: center;
+  color: #bd932b;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+div.contact div.contactimg,
+div.contact div.contactinfo {
+  float: left;
+  width: 48vw;
+}
+
+div.contact::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+div.contact div.contactinfo {
+  padding-top: 90px;
+  font-size: 25px;
+  padding-left: 100px;
+  color: #5e5356;
+}
+
+div.contact div.contactimg {
+  text-align: center;
+}
+
+div.contact {
+  background: linear-gradient(#e6ae15, #e9d1ff);
+}
+
+@media (max-width: 800px) {
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body header.mainheader nav ul li {
+    display: none;
+  }
+
+  header.mainheader {
+    height: 60vh;
+    background-image: linear-gradient(
+        to top left,
+        rgba(12, 12, 12, 0.459),
+        rgba(77, 79, 83, 0.596)
+      ),
+      url(../Images/finalheaderwallpaper.jpg);
+    width: 100%;
+    background-size: cover;
+    padding-right: 0;
+  }
+
+  div.container {
+    margin-top: 0;
+    padding-top: 30%;
+  }
+
+  div.container h1{
+      font-size: 16px;
+  }
+
+  div.container p.paracontent{
+      font-size: 12px;
+  }
+
+  a.parabutton{
+      font-size: 10px;
+  }
+  
+  section.aboutcontainer h2{
+      font-size: 16px;
+      margin-top: 0;
+  }
+
+  section.aboutcontainer div.paraandimg div.aboutpara{
+    background: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    
+  }
+
+
+  section.aboutcontainer div.paraandimg div.aboutimg {
+    /* display: inline-block; */
+    padding-bottom: 0;
+    background: none;
+  }
+
+  section.aboutcontainer div.paraandimg img.aboutimg {
+    width: 100vw;
+    text-align: center;
+    /* padding-top: 0vh; */
+    background: none;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  div.aboutfooter div.Academics{
+    width: 100vw;
+    float: none;
+    font-size: 14px;
+  }
+
+  div.aboutfooter div.Certifications{
+    width: 100vw;
+    float: none;
+    font-size: 14px;
+  }
+
+  div.aboutfooter div.Organizations{
+    width: 100vw;
+    float: none;
+    font-size: 14px;
+  }
+
+  div.aboutfooter div.Projects{
+    width: 100vw;
+    float: none;
+    font-size: 14px;
+  }
+
+  section.whyme h2{
+    margin: 10px;
+    font-size: 18px;
+  }
+  section.whyme div.para2andimg2 div.whypara{
+    float: none;
+    width: 100vw;
+    background: none;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+  }
+
+  section.whyme div.para2andimg2 img.whymeimg{
+    float: none;
+    width: 100vw;
+    background: none;
+  }
+
+  section.whyme div.para2andimg2 div.whymeimg{
+    padding: 0;
+    margin: 0;
+  }
+
+  div.contactheader h1{
+    font-size: 18px;
+  }
+
+  div.contact img.contactimg{
+    float: none;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: none;
+  }
+
+
+  div.contact div.contactinfo, div.contact div.contactimg{
+    float: none;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+
+}
